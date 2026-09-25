@@ -4,10 +4,10 @@
 
 | Lab | Open in Colab | Notebook |
 |-----|---------------|----------|
-| Lab 01 — Environment Setup | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaal6/Introduction-to-Artificial-Intelligence-Lab-Tasks/blob/main/lab01/Lab_01_Environment_Setup.ipynb) | `lab01/Lab_01_Environment_Setup.ipynb` |
-| Lab 02 — Web Scraping and EDA | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaal6/Introduction-to-Artificial-Intelligence-Lab-Tasks/blob/main/lab02/Lab_02_Web_Scraping_and_EDA.ipynb) | `lab02/Lab_02_Web_Scraping_and_EDA.ipynb` |
-| Lab 03 — Text and Image Features | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaal6/Introduction-to-Artificial-Intelligence-Lab-Tasks/blob/main/lab03/Lab_03_Text_and_Image_Features.ipynb) | `lab03/Lab_03_Text_and_Image_Features.ipynb` |
-| Lab 04 — Simple Linear Regression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaal6/Introduction-to-Artificial-Intelligence-Lab-Tasks/blob/main/lab04/Simple_Linear_Regression.ipynb) | `lab04/Simple_Linear_Regression.ipynb` |
+| Lab 01 — Environment Setup | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab01/Lab_01_Environment_Setup.ipynb) | `lab01/Lab_01_Environment_Setup.ipynb` |
+| Lab 02 — Web Scraping and EDA | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab02/Lab_02_Web_Scraping_and_EDA.ipynb) | `lab02/Lab_02_Web_Scraping_and_EDA.ipynb` |
+| Lab 03 — Text and Image Features | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab03/Lab_03_Text_and_Image_Features.ipynb) | `lab03/Lab_03_Text_and_Image_Features.ipynb` |
+| Lab 04 — Simple Linear Regression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab04/Simple_Linear_Regression.ipynb) | `lab04/Simple_Linear_Regression.ipynb` |
 
 > Replace `manaal6` in the links above with your GitHub username if different.
 
