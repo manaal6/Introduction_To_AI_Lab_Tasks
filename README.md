@@ -1,6 +1,8 @@
 # Introduction to Artificial Intelligence Lab Tasks
 
-5 labs, ready to run on **Google Colab**. Click a badge to open and press **Runtime > Run all**.
+6 labs. Labs 01–05 run on **Google Colab** — click a badge and press **Runtime > Run all**.
+
+> Lab 06 is a deployment lab (FastAPI + dashboard) — it runs locally, see `lab06/` below.
 
 | Lab | Open in Colab | Notebook |
 |-----|---------------|----------|
@@ -9,6 +11,7 @@
 | Lab 03 — Text and Image Features | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab03/Lab_03_Text_and_Image_Features.ipynb) | `lab03/Lab_03_Text_and_Image_Features.ipynb` | [Colab link](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab03/Lab_03_Text_and_Image_Features.ipynb) · `lab03/Lab_03_Text_and_Image_Features.pdf` |
 | Lab 04 — Simple Linear Regression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab04/Simple_Linear_Regression.ipynb) | `lab04/Simple_Linear_Regression.ipynb` | [Colab link](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab04/Simple_Linear_Regression.ipynb) · `lab04/Simple_Linear_Regression.pdf` |
 | Lab 05 — Diabetes & Logistic Regression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab05/Lab_05_Diabetes_Logistic_Regression.ipynb) | `lab05/Lab_05_Diabetes_Logistic_Regression.ipynb` | [Colab link](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab05/Lab_05_Diabetes_Logistic_Regression.ipynb) · `lab05/Lab_05_Diabetes_Logistic_Regression.pdf` |
+| Lab 06 — Diabetes Dashboard (FastAPI) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab06/Lab_06_Diabetes_Deployment.ipynb) | `lab06/Lab_06_Diabetes_Deployment.ipynb` | [Colab link](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab06/Lab_06_Diabetes_Deployment.ipynb) · `lab06/Lab_06_Diabetes_Deployment.pdf` — app runs locally, see below |
 
 > The `labXX/*.pdf` files are the executed notebooks exported **with outputs** (see "PDFs with outputs" below).
 
@@ -32,6 +35,9 @@ jupyter notebook
 - `lab03/` — Bag-of-Words + image grayscale/flatten
 - `lab04/` — Simple Linear Regression (`Salary_dataset.csv`, `housing.csv`, `house_price_regression_dataset.csv`)
 - `lab05/` — Diabetes exploration + Logistic Regression (`diabetes.csv`)
+- `lab06/` — Diabetes prediction dashboard: sir's FastAPI backend (`main.py`) + frontend (`index.html`).
+  Run locally: `cd lab06 && python -m uvicorn main:app --port 8000`, then open `index.html` in the browser
+  (it calls `http://localhost:8000/predict`). API docs at `http://localhost:8000/docs`.
 
 ## PDFs with outputs
 

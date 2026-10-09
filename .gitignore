@@ -3,5 +3,6 @@ __pycache__/
 .venv/
 env/
 *.pkl
+!lab06/*.pkl
 .env
 test_images/
