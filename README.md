@@ -12,6 +12,7 @@
 | Lab 04 — Simple Linear Regression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab04/Simple_Linear_Regression.ipynb) | `lab04/Simple_Linear_Regression.ipynb` | [Colab link](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab04/Simple_Linear_Regression.ipynb) · `lab04/Simple_Linear_Regression.pdf` |
 | Lab 05 — Diabetes & Logistic Regression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab05/Lab_05_Diabetes_Logistic_Regression.ipynb) | `lab05/Lab_05_Diabetes_Logistic_Regression.ipynb` | [Colab link](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab05/Lab_05_Diabetes_Logistic_Regression.ipynb) · `lab05/Lab_05_Diabetes_Logistic_Regression.pdf` |
 | Lab 06 — Diabetes Dashboard (FastAPI) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab06/Lab_06_Diabetes_Deployment.ipynb) | `lab06/Lab_06_Diabetes_Deployment.ipynb` | [Colab link](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab06/Lab_06_Diabetes_Deployment.ipynb) · `lab06/Lab_06_Diabetes_Deployment.pdf` — app runs locally, see below |
+| Lab 08 — Digits Recognition (CNN) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab08/Lab_08_Digits_Recognition.ipynb) | `lab08/Lab_08_Digits_Recognition.ipynb` | [Colab link](https://colab.research.google.com/github/manaal6/Introduction_To_AI_Lab_Tasks/blob/main/lab08/Lab_08_Digits_Recognition.ipynb) · `lab08/Lab_08_Digits_Recognition.pdf` |
 
 > The `labXX/*.pdf` files are the executed notebooks exported **with outputs** (see "PDFs with outputs" below).
 
@@ -38,6 +39,10 @@ jupyter notebook
 - `lab06/` — Diabetes prediction dashboard: sir's FastAPI backend (`main.py`) + frontend (`index.html`).
   Run locally: `cd lab06 && python -m uvicorn main:app --port 8000`, then open `index.html` in the browser
   (it calls `http://localhost:8000/predict`). API docs at `http://localhost:8000/docs`.
+- `lab08/` — Digits Recognition with a CNN (TensorFlow/Keras). Needs the Kaggle `digit-recognizer`
+  `train.csv` / `test.csv` (not committed — too large). On Colab:
+  `!pip install -q kagglehub` then `kagglehub.competition_download('digit-recognizer')`;
+  the notebook's loaders find the files automatically. Use **GPU runtime** for fast training.
 
 ## PDFs with outputs
 

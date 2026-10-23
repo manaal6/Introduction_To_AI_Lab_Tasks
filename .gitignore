@@ -6,3 +6,5 @@ env/
 !lab06/*.pkl
 .env
 test_images/
+lab08/train.csv
+lab08/test.csv
