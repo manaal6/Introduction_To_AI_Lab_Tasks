@@ -43,6 +43,8 @@ jupyter notebook
   `train.csv` / `test.csv` (not committed — too large). On Colab:
   `!pip install -q kagglehub` then `kagglehub.competition_download('digit-recognizer')`;
   the notebook's loaders find the files automatically. Use **GPU runtime** for fast training.
+  If Kaggle asks for a token, no action needed: the loader falls back to OpenML MNIST and writes
+  `train.csv` (60k) / `test.csv` (10k) in the same format. Executed run: 10 epochs, val acc 0.989.
 
 ## PDFs with outputs
 
